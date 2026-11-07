@@ -1,0 +1,5 @@
+runs/
+*.cache
+yolov8n.pt
+.ipynb_checkpoints/
+__pycache__/

@@ -1,0 +1,7 @@
+path: D:/iat360/including1_2.v1-2026-05-28-10-54am-dataset-l.yolov8
+train: train/images
+val: valid/images
+
+names:
+  0: fire
+  1: smoke
