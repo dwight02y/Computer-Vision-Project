@@ -24,7 +24,8 @@ screenshots/                  screenshots of training and evaluation steps
 It is not copied here (about 3 GB). Download it from Roboflow Universe in **YOLOv8** format, and its `config.yaml` is the one used for training.
 https://universe.roboflow.com/fire-detection-vegji/including1_2/dataset/1
 
-I trained on 30% of the training images (`fraction=0.3`, 4,656 images) to accelerate iterative experimentation and optimize hyperparameter exploration under constrained computational resources and validated on the full valid split (6,652 images, 13,268 boxes).
+Training subset (fraction=0.3): 4,656 images with 9,836 boxes (5,350 fire, 4,486 smoke). Validation split: 6,652 images with 13,268 boxes (7,097 fire, 6,171 smoke).
+I trained on 30% of the training images to accelerate iterative experimentation and optimize hyperparameter exploration under constrained computational resources and validated on the full valid split.
 
 **Test data (new data, our labels).** `bc_test/`: 90 images, 49 with objects (148 boxes: 112 fire in 45 images, 36 smoke in 30 images) and 41 negatives.
 11 images are photos taken by team members; the other 79 come from news and web pages.
