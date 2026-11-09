@@ -4,6 +4,8 @@ The 90 test images (`bc_test/images/`) are **not redistributed** in this reposit
 
 Photos we took ourselves (11) are listed as `own photo`. Source pages (79) are in the table; several are negative images (kettles, light bulbs, clouds, fog, steam, factory smoke) used to test false alarms.
 
+Note: some web images for dy_img were saved as screenshots (the page only offered AVIF), so a re-downloaded image may differ slightly in resolution or framing from the one we labelled.
+
 | File | Type | Source |
 |---|---|---|
 | dy_img01 | web/news | https://thenarwhal.ca/bc-wildfires-data/ |
