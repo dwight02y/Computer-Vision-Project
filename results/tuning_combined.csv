@@ -1,0 +1,2 @@
+run,valid_P,valid_R,valid_F1,valid_mAP50,valid_mAP50-95,test_P,test_R,test_F1,test_mAP50,test_mAP50-95
+combined_e30_sz512_lr0.0005,0.805,0.74,0.771,0.824,0.517,0.362,0.387,0.374,0.291,0.131

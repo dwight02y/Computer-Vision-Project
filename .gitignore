@@ -3,3 +3,8 @@ runs/
 yolov8n.pt
 .ipynb_checkpoints/
 __pycache__/
+bc_test/images/*
+!bc_test/images/.gitkeep
+results/baseline_bc90/val_batch*
+results/baseline_bc_final/val_batch*
+results/combined_bc90/val_batch*

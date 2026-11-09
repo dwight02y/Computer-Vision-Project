@@ -1,4 +1,3 @@
-path: D:/iat360/Computer-Vision-Project/bc_test
 train: images
 val: images
 names:
