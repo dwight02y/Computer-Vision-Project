@@ -4,8 +4,6 @@ IAT360 Computer Vision final project. Supervised **object detection** with two c
 We fine-tune a pretrained YOLOv8n (Ultralytics) on a public Roboflow fire/smoke dataset and test it on our own set of
 90 images (30 per team member) from BC and other wildfire scenes, including 41 negative images (fog, clouds, steam, lights, kettles, ...).
 
-The full write-up (dataset report, training report, ethics) is in the PDF report submitted on Canvas.
-
 ## Repository layout
 
 ```
@@ -24,6 +22,8 @@ screenshots/                  screenshots of training and evaluation steps
 
 **Training / validation data (existing dataset).** Roboflow Universe dataset *including1_2* (22,173 images, CC BY 4.0, train/valid splits).
 It is not copied here (about 3 GB). Download it from Roboflow Universe in **YOLOv8** format, and its `config.yaml` is the one used for training.
+https://universe.roboflow.com/fire-detection-vegji/including1_2/dataset/1
+
 I trained on 30% of the training images (`fraction=0.3`, 4,656 images) to accelerate iterative experimentation and optimize hyperparameter exploration under constrained computational resources and validated on the full valid split (6,652 images, 13,268 boxes).
 
 **Test data (new data, our labels).** `bc_test/`: 90 images, 49 with objects (148 boxes: 112 fire in 45 images, 36 smoke in 30 images) and 41 negatives.
