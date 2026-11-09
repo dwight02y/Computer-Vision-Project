@@ -8,3 +8,4 @@ bc_test/images/*
 results/baseline_bc90/val_batch*
 results/baseline_bc_final/val_batch*
 results/combined_bc90/val_batch*
+results/*_bc/val_batch*
