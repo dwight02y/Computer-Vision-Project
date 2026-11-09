@@ -30,8 +30,7 @@ I trained on 30% of the training images (`fraction=0.3`, 4,656 images) to accele
 11 images are photos taken by team members; the other 79 come from news and web pages.
 
 ### Test images
-We do not have the right to redistribute the web and news images, so `bc_test/images/` is **empty in this repository**
-(it only contains `.gitkeep` to show the folder structure). To rebuild the test set, download every image listed in
+We do not have the right to redistribute the web and news images, so `bc_test/images/`only contains 11 pictures taken directly. To rebuild the test set, download every image listed in
 [`bc_test/SOURCES.md`](bc_test/SOURCES.md) and save it as `bc_test/images/<file>.<ext>`; the file name (without extension) must match the label file in `bc_test/labels/`.
 After that the repository can be used as is.
 
